@@ -1,3 +1,9 @@
+# revision 21748
+# category Package
+# catalog-ctan /macros/latex/contrib/bashful
+# catalog-date 2011-03-17 11:56:38 +0100
+# catalog-license lppl1.3
+# catalog-version 0.92
 Name:		texlive-bashful
 Version:	0.92
 Release:	1
@@ -46,6 +52,7 @@ processing your document.
 %doc %{_texmfdistdir}/doc/latex/bashful/README
 %doc %{_texmfdistdir}/doc/latex/bashful/bashful.pdf
 %doc %{_texmfdistdir}/doc/latex/bashful/bashful.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ processing your document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
