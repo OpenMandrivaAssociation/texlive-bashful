@@ -53,3 +53,22 @@ processing your document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.92-3
++ Revision: 787565
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.92-2
++ Revision: 749451
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.92-1
++ Revision: 717885
+- texlive-bashful
+- texlive-bashful
+- texlive-bashful
+- texlive-bashful
+- texlive-bashful
+
