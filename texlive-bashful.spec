@@ -6,7 +6,7 @@
 # catalog-version 0.92
 Name:		texlive-bashful
 Version:	0.92
-Release:	3
+Release:	4
 Summary:	Invoke bash commands from within LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bashful
