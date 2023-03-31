@@ -1,6 +1,6 @@
 Name:		texlive-bashful
 Version:	25597
-Release:	1
+Release:	2
 Summary:	Invoke bash commands from within LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bashful
